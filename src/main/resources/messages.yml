@@ -1,0 +1,52 @@
+mesajlar:
+  prefix: "&d&lʟ&5&lᴀʀɪᴀ&r&7 » "
+
+  bildir:
+    sadece-oyuncu: "&cʙᴜ ᴋᴏᴍᴜᴛᴜ sᴀᴅᴇᴄᴇ ᴏʏᴜɴᴄᴜʟᴀʀ ᴋᴜʟʟᴀɴᴀʙɪʟɪʀ!"
+    kullanim: "&eᴋᴜʟʟᴀɴıᴍ: &f/ʙɪʟᴅɪʀ <ᴏʏᴜɴᴄᴜ>"
+    ornek: "&7öʀɴᴇᴋ: &f/ʙɪʟᴅɪʀ sᴇᴛʜ31"
+    cooldown: "&cᴛᴇᴋʀᴀʀ ʙɪʟᴅɪʀɪ ʏᴀᴘᴍᴀᴋ ɪçɪɴ &f{sure} &cʙᴇᴋʟᴇᴍᴇʟɪsɪɴ!"
+    oyuncu-yok: "&cʙᴜ ᴏʏᴜɴᴄᴜ şᴜ ᴀɴᴅᴀ çᴇᴠʀɪᴍɪçɪ ᴅᴇğɪʟ!"
+    isleniyor: "&eʙɪʟᴅɪʀɪ ɪşʟᴇɴɪʏᴏʀ..."
+    basarili: "&aʙɪʟᴅɪʀɪ ʙᴀşᴀʀıʏʟᴀ ɪşʟᴇɴᴅɪ!"
+    sonuc-temiz: "&7sᴏɴᴜç: &aɪʜʟᴀʟ ᴛᴇsᴘɪᴛ ᴇᴅɪʟᴍᴇᴅɪ"
+    sonuc-ihlal: "&cɪʜʟᴀʟ ᴛᴇsᴘɪᴛ ᴇᴅɪʟᴅɪ → ᴄᴇᴢᴀ ᴜʏɢᴜʟᴀɴᴅı"
+    hata: "&cʙɪʟᴅɪʀɪ ɪşʟᴇɴɪʀᴋᴇɴ ʙɪʀ ʜᴀᴛᴀ ᴏʟᴜşᴛᴜ!"
+    zaten-isleniyor: "&cʙᴜ ᴏʏᴜɴᴄᴜ ᴢᴀᴛᴇɴ ᴀɴᴀʟɪᴢ ᴇᴅɪʟɪʏᴏʀ!"
+    mesaj-yok: "&cʜᴇɴüᴢ ᴀɴᴀʟɪᴢ ᴇᴅɪʟᴇᴄᴇᴋ ᴍᴇsᴀᴊ ʏᴏᴋ!"
+    basladi: "&aAnaliz başlatıldı, lütfen bekleyin..."
+
+  ceza:
+    susturuldu: "&cᴏᴛᴏᴍᴀᴛɪᴋ ᴍᴏᴅᴇʀᴀsʏᴏɴ ᴛᴀʀᴀꜰıɴᴅᴀɴ sᴜsᴛᴜʀᴜʟᴅᴜɴ!"
+    sebep: "&7sᴇʙᴇᴘ: &f{sebep}"
+    sure: "&7süʀᴇ: &f{sure}"
+    title: "&4&lᴀɢᴢıɴ ᴄᴏᴋ ʙᴏᴢᴜᴋ!"
+    subtitle: "&c{sure} &7sᴜʀᴇʏʟᴇ ᴍᴜᴛᴇ ʏᴇᴅɪɴ!"
+
+  uyari:
+    mesaj: "&eᴜʏᴀʀɪ &l{sayi}&e/&l{maksimum}&e: &fʟüᴛꜰᴇɴ ᴅɪʟɪɴᴇ ᴅɪᴋᴋᴀᴛ ᴇᴛ!"
+    title: "&c&lʟᴜᴛꜰᴇɴ ᴀɢᴢıɴı ᴛᴏᴘʟᴀ!"
+    subtitle: "&7ᴛᴏᴘʟᴀᴍᴀᴢsᴀɴ ᴍᴜᴛᴇ ʏɪʏᴇʙɪʟɪʀsɪɴ &8(&c{sayi}&7/&c{maksimum}&8)"
+    hafif-hakaret: "&cʟüᴛꜰᴇɴ ʜᴀᴋᴀʀᴇᴛ ᴇᴛᴍᴇ! &7(mal, salak, ezik vb.)"
+
+  ozur:
+    kabul: "&aÖzrün kabul edildi! &71 uyarı silindi &8(&f{sayi}&8/&f{maks}&8)"
+    ipucu: "&f§oɪᴘᴜᴄᴜ: &7\"&fözür dilerim&7\" veya \"&fküfür ettiğim için özür dilerim&7\" yazarsan &a1 uyarı silinir!"
+    cooldown: "&cSaatte sadece &l1 kez &cözür dileyebilirsin! &7(&f{remaining}&7dk kaldı)"
+    hic-uyari-yok: "&cÖzür dilemek için önce uyarı alman gerekiyor!"
+
+  hata:
+    spam: "&cÇok hızlı mesaj atıyorsun! &7Yavaşla."
+    zaten-isleniyor: "&cMesajın zaten analiz ediliyor, lütfen bekle!"
+    cok-hizli: "&cÇok hızlısın! Biraz yavaşla."
+    gemini: "&cGemini analiz hatası oluştu. Moderatörler bilgilendirildi."
+    yetki-yok: "&cBu komutu kullanmaya yetkin yok!"
+
+  discord:
+    baslik: "Sohbet Moderasyon Bildirimi"
+    footer: "Laria Otomatik Moderasyon Sistemi"
+    alan-oyuncu: "Oyuncu:"
+    alan-mesaj: "Mesaj:"
+    alan-islem: "İşlem:"
+    alan-sure: "Süre:"
+    alan-uyari: "Uyarı Sayısı:"

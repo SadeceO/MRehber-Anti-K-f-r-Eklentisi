@@ -1,0 +1,66 @@
+sohbet-moderasyonu:
+  gemini:
+    aktif: true
+    api-anahtari: "Buraya gemini api keyini yaz ama bu zorunlu kardesim yani güzel bir check için lazım bu"
+    istem: |
+      Aşağıdaki Minecraft sohbet mesajlarını analiz et. Sadece küfür/hakaret içerenleri raporla.
+
+      Derecelendirme:
+      - 1. DERECE → Normal küfür (sik, göt, am, orospu vb.)
+      - 2. DERECE → Aileye küfür (ananı, bacını, babanı vb.)
+      - 3. DERECE → Din, ırk, Atatürk, {server_name} gibi sunucuya hakaret
+      - UYARI      → Hafif hakaret (mal, salak, aptal, ezik vb.)
+
+      ÖNEMLİ:
+      - aq, sq, wtf, lol gibi kısaltmaları küfür sayMA!
+      - qmk → amk, qnqnıskm → ananıskm gibi şifreli küfürleri çöz ve tespit et!
+      - Aynı oyuncudan birden fazla ihlal varsa sadece en ağır olanını yaz!
+      - Her oyuncu için tek satır döndür!
+
+      Format: OYUNCU_ADI|DERECE|ORİJİNAL_MESAJ
+      Hiç ihlal yoksa sadece: TEMIZ
+
+      Mesajlar:
+      {messages}
+
+  discord:
+    aktif: true
+    webhook-adresi: "Buraya Discord Webhook Yazabilirsin ZORUNLU DEĞİL!"
+
+  ayarlar:
+    toplu-kontrol-mesaj-sayisi: 5
+    mesaj-gecmisi-boyutu: 50
+
+# isterseniz BAN attirabilirsiniz mute yerine size kalmış...
+cezalar:
+  birinci-derece:
+    sure: "15m"
+    sebep: "1. dereceden küfür"
+    komut: "tempmute {oyuncu} {sure} {sebep}"
+
+  ikinci-derece:
+    sure: "30m"
+    sebep: "2. dereceden küfür"
+    komut: "tempmute {oyuncu} {sure} {sebep}"
+
+  ucuncu-derece:
+    sure: "7d"
+    sebep: "3. dereceden küfür"
+    komut: "tempban {oyuncu} {sure} {sebep}"
+
+  belirsizlik:
+    sure: "5m"
+    sebep: "Hızlı Tespit Sistemi Tarafından Yakalandın!"
+    komut: "tempmute {oyuncu} {sure} {sebep}"
+
+  uyari-sonrasi:
+    sure: "15m"
+    sebep: "3 uyarı sonrası otomatik ceza"
+    komut: "tempmute {oyuncu} {sure} {sebep}"
+
+uyari:
+  maksimum-uyari: 3
+
+# komut: "ban {oyuncu} {sebep}"
+# komut: "banip {oyuncu} {sure} {sebep}"
+# komut: "punish {oyuncu} KÜFÜR {sure}"
